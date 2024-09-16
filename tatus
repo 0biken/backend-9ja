@@ -1,0 +1,213 @@
+[33mcommit 15452d6a265efaca35c26c67a7bf24409a382133[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Sat Sep 14 00:35:20 2024 +0100
+
+    feat: Add createProduct endpoint and success message
+    
+    - Added a new endpoint to create a product
+    - Updated success messages enum to include CREATE_PRODUCT_SUCCESS
+    - Implemented createProduct method in ProductController
+    - Added validation for ProductCreateDto in product.routes.ts
+    - Implemented createProduct method in ProductService
+    - Added authorization check in updateProduct method of ProductService
+
+[33mcommit 6aa802938b5dd59db7ce014d833211a82c337fe0[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Fri Sep 13 04:22:16 2024 +0100
+
+    refactor: Update customer and market authentication guards
+    
+    The customer and market authentication guards have been updated to use the respective repositories instead of the service classes. This improves code organization and reduces unnecessary dependencies.
+
+[33mcommit 01b51cc9417cc65f9400de2f1d482d061011479e[m
+Merge: b0e2742 e87fe76
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Fri Sep 13 04:10:07 2024 +0100
+
+    Merge pull request #1 from 0biken:user-service
+    
+    User-service
+
+[33mcommit e87fe7610219d3c1e8b7cbd6e7ece26eff64c41c[m
+Merge: 4a75584 b0e2742
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Fri Sep 13 04:09:54 2024 +0100
+
+    Merge remote-tracking branch 'origin/master' into user-service
+
+[33mcommit 4a75584361ed2022492d8f074a1dcc3d43a91689[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Fri Sep 13 04:07:53 2024 +0100
+
+    Created Market Module
+
+[33mcommit c826d640ea6699f479c607cbe4b96cc892977dee[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Fri Sep 13 02:53:48 2024 +0100
+
+    feat: Format database objects in format.helper.ts
+    
+    The `formatDatabaseObject` method in `format.helper.ts` now supports additional options for excluding specific fields and formatting nested objects and arrays recursively. This improves the consistency and readability of the formatted data.
+
+[33mcommit b85e68a075fefe7a661c716d8f1a2d6bb2b52230[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 23:53:23 2024 +0100
+
+    Completed rating sub-module
+
+[33mcommit 06a371d7b71c6c874c93baef44018dfa1ced4400[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 23:11:14 2024 +0100
+
+    chore: Add unique constraint and index to Rating model
+
+[33mcommit aee07a085a3806b6fa21a96cc29dcebac1703e7b[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 23:00:51 2024 +0100
+
+    Completed Cart Sub -Module
+
+[33mcommit 88682612e78aa3d4e415259bacaa7ae12c452198[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 21:47:02 2024 +0100
+
+    Created first features for Product Module
+
+[33mcommit 6aadbff2535bac2032a83dbce93320cc601af24c[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 14:59:45 2024 +0100
+
+    created cart repository
+
+[33mcommit b0e2742032c58bc0c3e0ef522089127c683b77ca[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 12:38:36 2024 +0100
+
+    Postman: Created User Service
+
+[33mcommit 66d52096a937285cb13d24412ecd70627b0d6346[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 12:37:24 2024 +0100
+
+    chore: Refactor customer controller and routes, update customer profile endpoint
+
+[33mcommit 8f04ab5a130a106234b48378849298bc0fc3b617[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 03:07:16 2024 +0100
+
+    Added customer gaurd to the customer route
+
+[33mcommit 81c5df52035ab5b91f5b8df3c711f9fbea762719[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 02:58:57 2024 +0100
+
+    created guards with level
+
+[33mcommit f2d87626976a80b37e1e6494eca058bc562e18c0[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 02:03:20 2024 +0100
+
+    Added the routes for peliminary customer service
+
+[33mcommit 17ff0456c5dc1d55fb72ade7f8983eaa92de8183[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Tue Sep 10 01:37:01 2024 +0100
+
+    Added Feature get and update user service
+
+[33mcommit 08f18442aeaf2b58558aef90d81ed00d1071a966[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 22:39:37 2024 +0100
+
+    Added files for cart service
+
+[33mcommit 574e56e78600b2fd3ba8287d18270fe231234d96[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 22:32:04 2024 +0100
+
+    created the files and added the route to the global route
+
+[33mcommit f1e582bf211e74c8c75140146bf8142fe33f9f35[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 22:25:31 2024 +0100
+
+    created test files
+
+[33mcommit 440f1737d63fcf89529409b559c1e4e9b6c8e54d[m
+Merge: 4f48a6c 010b917
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 22:13:37 2024 +0100
+
+    Merge branch 'master' of https://github.com/0biken/9ja-Market
+
+[33mcommit 4f48a6c59e2fabd3bda85e82516e9a3f702d6283[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 22:13:32 2024 +0100
+
+    chore: Refactor authentication module and finalize functions
+
+[33mcommit 010b917a37eef1a9d09aa0bdd0314e27453ef337[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 22:13:00 2024 +0100
+
+    Postman- Authentication Module Collections
+
+[33mcommit 90eae92248fbce598d1bc4a7c5ed50abda766431[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 21:32:45 2024 +0100
+
+    Further Refactor Authentication Module
+
+[33mcommit c98ee97990f90540d03667b779bac7b738c0d561[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 02:25:00 2024 +0100
+
+    Solved All problems i saw with the auth module
+
+[33mcommit 07ba16a6a5612c00c87a4587968085593375ca8e[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Mon Sep 9 00:14:08 2024 +0100
+
+    Finalized other authentication functions
+
+[33mcommit cc22d55181ea12fbbf6d2a4d09dd06b56e5068ac[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Sun Sep 8 19:14:27 2024 +0100
+
+    Added Controllers and routes
+
+[33mcommit 13c16277b5d13c1ea54f9c239705f7946efc510a[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Sun Sep 8 18:10:26 2024 +0100
+
+    Changed architecture to module based
+
+[33mcommit 896e9988b2368ba6f551406045fcf447e5cae72b[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Sat Sep 7 04:18:23 2024 +0100
+
+    added address and phone number creation to the registration methods
+
+[33mcommit 5c0d44f2528df99791b3854ec64da41a542dd919[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Fri Sep 6 23:09:46 2024 +0100
+
+    feat: Add phone numbers and addresses to customer and market register request DTOs
+
+[33mcommit 51c3af3015804cf3e20361e39d3eebb1cae34e42[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Fri Sep 6 09:11:00 2024 +0100
+
+    Completed Basic auth services
+
+[33mcommit 7960da49291d6fc414f15220ad9c30f9c237711d[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Thu Sep 5 19:19:47 2024 +0100
+
+    Created Logger Service an connected Database
+
+[33mcommit 2333a364e5d8a583af1583e3653196b1bc08a403[m
+Author: Ezeocha Obioma <oezeocha330@stu.ui.edu.ng>
+Date:   Thu Sep 5 19:01:56 2024 +0100
+
+    initial files and database schema
